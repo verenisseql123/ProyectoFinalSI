@@ -1,0 +1,97 @@
+.reposicion {
+    background-color: white;
+    border: 1px solid #eee5df;
+    border-radius: 12px;
+    padding: 12px;
+    width: 50%;
+    justify-self: center;
+    margin-top: 100px;
+}
+
+.reposicion h3 {
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+
+.reposicion > p {
+    font-size: 8px;
+    color: #a18d87;
+    margin-bottom: 12px;
+}
+
+.reposicion .descrip {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #eee5df;
+}
+
+.reposicion .image_container {
+    width: 75px;
+    height: 75px;
+    flex-shrink: 0;
+    background-color: #f3f0ec;
+    border-radius: 6px;
+    background-image: url(https://alessandrapenny.com/wp-content/uploads/2026/04/DSC00049-2-1-300x300.jpg);
+    background-size: contain;
+}
+
+.reposicion > div:first-of-type > div:last-child {
+    flex: 1;
+}
+
+.reposicion .texto_englobado {
+    display: inline-block;
+    background-color: #f5e9eb;
+    color: #85394c;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 8px;
+    margin-bottom: 8px;
+}
+
+.reposicion .descrip h1 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.reposicion .descrip .texto_peque {
+    font-size: 8px;
+    color: #8d7a74;
+}
+
+.reposicion .barra_lateral {
+    display: flex;
+    gap: 8px;
+    margin: 10px 0;
+}
+
+.reposicion .barra_lateral div {
+    flex: 1;
+    background-color: #faf7f3;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.reposicion .barra_lateral p:first-child {
+    font-size: 8px;
+    color: #a18d87;
+    margin-bottom: 8px;
+}
+
+.texto_peque {
+    font-size: 14px;
+    color: #8b354c;
+}
+
+.reposicion .boton_reposicion {
+    background-color: #803044;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 7px;
+    font-size: 9px;
+    cursor: pointer;
+}
