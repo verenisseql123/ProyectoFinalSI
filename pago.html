@@ -13,8 +13,21 @@
         <p>Completa los datos para continuar con tu compra.</p>
 
         <form>
+            <label for="tarjeta">Número de tarjeta</label>
+            <input
+                type="text"
+                id="tarjeta"
+                name="tarjeta"
+                placeholder="1234 5678 9012 3456"
+                inputmode="numeric"
+                pattern="[0-9 ]{16,19}"
+                maxlength="19"
+                required
+                title="Ingresa un número de tarjeta de 16 dígitos."
+            >
+            <button type="submit">Confirmar pago</button>
         </form>
     </main>
-
+    <script src="./js/pago.js"></script>
 </body>
 </html>
