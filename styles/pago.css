@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: #faf7f3;
+    font-family: Arial, sans-serif;
+    color: #3f302d;
+}
+
+.pago {
+    background-color: white;
+    border: 1px solid #eee5df;
+    border-radius: 12px;
+    padding: 20px;
+    width: 100%;
+    max-width: 380px;
+    margin: 100px auto;
+}
+
+.pago h3 {
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0 0 6px;
+}
+
+.pago p {
+    font-size: 11px;
+    color: #a18d87;
+    margin-bottom: 22px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 11px;
+    margin-bottom: 7px;
+}
+
+input {
+    padding: 11px;
+    margin-bottom: 17px;
+    border: 1px solid #eee5df;
+    border-radius: 7px;
+    font-size: 12px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #803044;
+}
+
+button {
+    background-color: #803044;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 7px;
+    font-size: 11px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #682638;
+}
